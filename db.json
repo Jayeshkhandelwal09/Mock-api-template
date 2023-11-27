@@ -1,48 +1,196 @@
 {
-  "events": [
+  "foods": [
+    {
+      "id": 8,
+      "name": "Caprese Salad",
+      "description": "Tomatoes, fresh mozzarella, and basil drizzled with balsamic glaze.",
+      "image": "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2Farchive%2F3b432b41ce04c96a08d77befa42b9881a587a436",
+      "price": 10.99,
+      "category": "Salads"
+    },
+    {
+      "id": 9,
+      "name": "Vegan Buddha Bowl",
+      "description": "A colorful bowl with quinoa, roasted vegetables, and tahini dressing.",
+      "image": "https://www.sarahaasrdn.com/wp-content/uploads/2017/01/Easy-Southwest-Buddha-Bowl-4.jpg",
+      "price": 13.99,
+      "category": "Vegan"
+    },
+    {
+      "id": 11,
+      "name": "Avocado Toast",
+      "description": "Sliced avocado on toasted whole-grain bread with a sprinkle of sea salt.",
+      "image": "https://plantbasedmatters.net/wp-content/uploads/2021/06/Asian-Style-Scallion-Cucumber-Avocado-Toast.jpg",
+      "price": 6.99,
+      "category": "Breakfast"
+    },
+    {
+      "id": 16,
+      "name": "Vegetable Curry",
+      "description": "Assorted vegetables in a flavorful curry sauce, served with basmati rice.",
+      "image": "https://blog.myfitnesspal.com/wp-content/uploads/2017/11/Chickpea-752x472.jpg",
+      "price": 12.99,
+      "category": "Vegetarian"
+    },
+    {
+      "id": 20,
+      "name": "Beef and Broccoli Stir-Fry",
+      "description": "Sliced beef and broccoli in a savory soy-based stir-fry sauce.",
+      "image": "https://hostessatheart.com/wp-content/uploads/2020/12/Beef-and-Broccoli-Stir-Fry-4-1024x682.jpg",
+      "price": 14.99,
+      "category": "Beef"
+    },
     {
       "id": 1,
-      "poster": "https://www.timeoutdubai.com/cloud/timeoutdubai/2023/05/22/gigs-in-dubai-1.png",
-      "name": "Music Festival",
-      "description": "A vibrant music festival featuring top artists from around the world.",
-      "date": "2023-09-15",
-      "location": "Delhi",
-      "category": "Music",
-      "price": 300
+      "name": "Quinoa Bowl",
+      "description": "A nutritious bowl featuring quinoa, mixed vegetables, avocado, and a light lemon-tahini dressing.",
+      "image": "https://www.foodbymaria.com/wp-content/uploads/2023/01/Quinoa-Bowl-4-scaled.jpg",
+      "price": 12.99,
+      "category": "Bowls"
     },
     {
       "id": 2,
-      "poster": "https://media.istockphoto.com/id/1320104418/photo/sport-background-green-field-in-soccer-stadium-ready-for-game-in-the-midfield-3d-illustration.jpg?s=612x612&w=0&k=20&c=P4R6zIzHvVlc3_wtsZPw7LoOG_TC9iV4DvpffHmCuU8=",
-      "name": "Soccer Match",
-      "description": "An exciting soccer match between two rival teams.",
-      "date": "2023-08-28",
-      "location": "Chennai",
-      "category": "Sports",
-      "price": 250
+      "name": "Grilled Salmon Salad",
+      "description": "Grilled salmon fillet on a bed of mixed greens with cherry tomatoes, cucumbers, and a zesty vinaigrette.",
+      "image": "https://sarahscucinabella.com/wp-content/uploads/2022/05/Grilled-Salmon-Salad-for-One-10-1000x667.jpg.webp",
+      "price": 15.99,
+      "category": "Salads"
     },
     {
       "id": 3,
-      "poster": "https://wpvip.edutopia.org/wp-content/uploads/2022/10/davis-169hero2-teachcode-twenty20.jpg?w=2880&quality=85",
-      "name": "Coding Workshop",
-      "description": "Learn the art of coding with experienced professionals.",
-      "date": "2023-09-05",
-      "location": "Banglore",
-      "category": "Workshop",
-      "price": 150
+      "name": "Chicken Alfredo Pasta",
+      "description": "Creamy Alfredo sauce with grilled chicken over a bed of fettuccine pasta.",
+      "image": "https://www.modernhoney.com/wp-content/uploads/2018/08/Fettuccine-Alfredo-Recipe-1.jpg",
+      "price": 15.99,
+      "category": "Pasta"
     },
     {
       "id": 4,
-      "poster": "https://media.npr.org/assets/img/2017/12/21/_harlan_nprmusic10years-149_wide-78a7596027f7b4c023a21ad85f078e8a4165c230-s800-c85.jpg",
-      "name": "Rock Concert",
-      "description": "A high-energy rock concert with electrifying performances.",
-      "date": "2023-09-20",
-      "location": "Mumbai",
-      "category": "Music",
-      "price": 400
+      "name": "Vegetarian Sushi Roll",
+      "description": "Assorted vegetables rolled in seasoned rice and nori, served with soy sauce.",
+      "image": "https://rimage.gnst.jp/livejapan.com/public/article/detail/a/00/01/a0001909/img/basic/a0001909_main.jpg",
+      "price": 8.99,
+      "category": "Sushi"
+    },
+    {
+      "id": 5,
+      "name": "Mango Tango Smoothie",
+      "description": "Refreshing smoothie with mango, banana, and a hint of coconut.",
+      "image": "https://www.herbalife.com/dmassets/global-reusable-assets/images/ri_mango_protein_shake_228254188.jpeg",
+      "price": 4.99,
+      "category": "Beverages"
+    },
+    {
+      "id": 7,
+      "name": "Grilled Salmon",
+      "description": "Freshly grilled salmon fillet with lemon and herbs.",
+      "image": "https://static01.nyt.com/images/2023/06/02/multimedia/02GRILL-BASICSrex5-salmon-vjtl/07GRILL-BASICSrex5-salmon-vjtl-superJumbo.jpg",
+      "price": 18.99,
+      "category": "Seafood"
+    },
+    {
+      "id": 10,
+      "name": "Chicken Tikka Masala",
+      "description": "Tender chicken pieces in a rich and creamy tomato-based sauce.",
+      "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2019/9/3/0/FNK_the-best-chicken-tikka-masala_H_s4x3.jpg.rend.hgtvcom.616.462.suffix/1567523604572.jpeg",
+      "price": 16.99,
+      "category": "Indian"
+    },
+    {
+      "id": 12,
+      "name": "BBQ Pulled Pork Sandwich",
+      "description": "Slow-cooked pulled pork in smoky BBQ sauce on a soft bun.",
+      "image": "https://i2.wp.com/pressurecookingtoday.com/wp-content/uploads/2019/06/Easy_Instant_Pot_Pulled_Pork_Pressure_Cooking_Today-1436-075x-800x534.jpg",
+      "price": 14.99,
+      "category": "Sandwiches"
+    },
+    {
+      "id": 13,
+      "name": "Shrimp Scampi",
+      "description": "Tender shrimp sautéed in garlic butter, white wine, and lemon juice.",
+      "image": "https://www.allrecipes.com/thmb/LpLK0Psum2fAUWKp2b9Qs3Ep2f0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/268669creamy-shrimp-scampi-with-half-and-half-humblepieliving-003-4x3-fbceb57a9b12481289f2f63229518701.jpg",
+      "price": 17.99,
+      "category": "Seafood"
+    },
+    {
+      "id": 14,
+      "name": "Berry Blast Smoothie Bowl",
+      "description": "A vibrant bowl with blended berries, granola, and coconut flakes.",
+      "image": "https://nkechiajaeroh.com/wp-content/uploads/2019/05/Berry_Blast_SmoothieBowl2-800x600.jpg",
+      "price": 9.99,
+      "category": "Beverages"
+    },
+    {
+      "id": 15,
+      "name": "Spinach and Feta Stuffed Chicken Breast",
+      "description": "Chicken breast stuffed with spinach and feta, baked to perfection.",
+      "image": "https://www.fivevalleysstroud.co.uk/images/recipes/large/8.png",
+      "price": 15.99,
+      "category": "Chicken"
+    },
+    {
+      "id": 17,
+      "name": "Crispy Tofu Stir-Fry",
+      "description": "Crispy tofu tossed with colorful vegetables in a savory stir-fry sauce.",
+      "image": "https://thepeskyvegan.com/wp-content/uploads/2020/01/tofu-stir-fry-close-up.jpg",
+      "price": 11.99,
+      "category": "Vegetarian"
+    },
+    {
+      "id": 18,
+      "name": "Vegetarian Wrap",
+      "description": "A flavorful wrap filled with hummus, roasted vegetables, feta cheese, and greens.",
+      "image": "https://www.hiddenvalley.com/wp-content/uploads/2021/04/roasted-ranch-veggie-wrap-RDP.jpg?width=720&quality=75",
+      "price": 9.99,
+      "category": "Wraps"
+    },
+    {
+      "id": 19,
+      "name": "Chocolate Chip Cookie Dough Ice Cream",
+      "description": "Vanilla ice cream with chunks of chocolate chip cookie dough.",
+      "image": "https://glutenfreebaking.com/wp-content/uploads/2015/06/Chocolate-Chip-Cookie-Dough-Ice-Cream.jpg",
+      "price": 8.99,
+      "category": "Desserts"
+    },
+    {
+      "id": 24,
+      "name": "Mango Avocado Smoothie",
+      "description": "A refreshing smoothie made with ripe mango, creamy avocado, Greek yogurt, and a hint of honey.",
+      "image": "https://i.ytimg.com/vi/aOrGQirUPEM/maxresdefault.jpg",
+      "price": 7.99,
+      "category": "Smoothies"
+    },
+    {
+      "id": 25,
+      "name": "Roasted Chickpea Bowl",
+      "description": "Crispy roasted chickpeas served with quinoa, spinach, cherry tomatoes, and a lemon-tahini dressing.",
+      "image": "https://marleyspoon.com/media/recipes/70042/main_photos/large/SKU1909_hero-82847861e46d66bb71a6dd8e47e55894.jpg",
+      "price": 11.99,
+      "category": "Bowls"
+    },
+    {
+      "id": 26,
+      "name": "Greek Yogurt Parfait",
+      "description": "Layers of Greek yogurt, granola, mixed berries, and a drizzle of honey for a delightful parfait.",
+      "image": "https://getinspiredeveryday.com/wp-content/uploads/2022/04/Fruit-and-Yogurt-Parfaits-Get-Inspired-Everyday-12.jpg",
+      "price": 8.99,
+      "category": "Parfaits"
+    },
+    {
+      "id": 28,
+      "name": "Quinoa and Black Bean Salad",
+      "description": "A protein-packed salad with quinoa, black beans, corn, cherry tomatoes, and cilantro lime dressing.",
+      "image": "https://woodlandfoods.com/img/WF_Images/g66-southwest-red-and-black-quinoa-salad-1.jpg",
+      "price": 10.99,
+      "category": "Salads"
+    },
+    {
+      "id": 30,
+      "name": "Fruit Salad Bowl",
+      "description": "A colorful bowl filled with a variety of fresh fruits, perfect for a light and healthy snack.",
+      "image": "https://www.theslowroasteditalian.com/wp-content/uploads/2023/06/rainbow-fruit-salad-bowl.webp",
+      "price": 9.49,
+      "category": "Bowls"
     }
-  ], 
-  "users": [
-  ],
-  "forums": [
   ]
 }
